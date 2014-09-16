@@ -1,0 +1,18 @@
+{
+  "name": "fuzzy",
+  "version": "0.0.1",
+  "description": "A fuzzy little example application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "author": "Noah Adams",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "request": "^2.42.0"
+  },
+  "dependencies": {
+    "connect": "2.7.5"
+  }
+}
