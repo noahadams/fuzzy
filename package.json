@@ -4,13 +4,14 @@
   "description": "A fuzzy little example application",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests"
+    "test": "`npm bin`/mocha tests && `npm bin`/nsp package"
   },
   "author": "Noah Adams",
   "license": "MIT",
   "devDependencies": {
     "mocha": "^1.21.4",
-    "request": "^2.42.0"
+    "request": "^2.42.0",
+    "nsp": "^0.2.8"
   },
   "dependencies": {
     "connect": "2.7.5"
